@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    /* margin: 0 auto; */
+    padding-top: 30px;
+    background-image: url('./images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 450px;
+    border: 1px solid black;
+    border: transparent;
+    box-shadow: 2px 2px 5px gray;
+}
+
+/* label,
+input {
+    display: block;
+    margin-bottom: 10px;
+} */
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+fieldset{
+    height: 350px;
+    width: 400px;
+    margin: 10px 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+input{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+}
+#email{
+    margin-left: 54px;
+}
+#pan{
+    margin-left: 62px;
+}
+#fullName{
+    margin-left: 22px;
+}
+#btn{
+    margin-left: 100px;
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px gray;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+#amountInWords{
+    font-size: 15px;
+}
+#loan{
+    text-align: center;
+    text-shadow: 2px 2px 7px red;
+}
